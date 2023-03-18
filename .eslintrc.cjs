@@ -17,5 +17,7 @@ module.exports = {
     'react'
   ],
   rules: {
+    'react/no-unknown-property': 'off',
+    'react/prop-types': 'off'
   }
 }
