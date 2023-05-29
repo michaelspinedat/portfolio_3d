@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css'
 import { styles } from '../styles'
 import { experiences } from '../constants'
-import SectionWrapper from '../hoc/SectionWrapper'
+import { SectionWrapper } from '../hoc'
 import { textVariant } from '../utils/motion'
 
 const ExperienceCard = ({ experience }) => {
@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
     >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{title}</h3>
-        <p className='text-secondary text-[16px] font-semibold m-0' style={{margin: 0}}>{company_name}</p>
+        <p className='text-secondary text-[16px] font-semibold m-0' style={{ margin: 0 }}>{company_name}</p>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
