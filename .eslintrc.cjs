@@ -18,6 +18,6 @@ module.exports = {
   rules: {
     'react/no-unknown-property': 'off',
     'react/prop-types': 'off',
-    'comma-dangle': ['error', { objects: 'always-multiline' }],
+    'comma-dangle': ['error', 'always-multiline'],
   },
 }

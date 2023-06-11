@@ -15,13 +15,12 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs
+  airbnb,
+  twitter,
+  ecommerce,
+  task,
+  restaurant,
+  threejs,
 } from '../assets'
 
 export const navLinks = [
@@ -36,22 +35,22 @@ export const navLinks = [
   {
     id: 'contact',
     title: 'Contact',
-  }
+  },
 ]
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Frontend Developer',
     icon: web,
   },
   {
-    title: 'Backend Developer',
+    title: 'Mobile Developer',
     icon: backend,
   },
   {
-    title: 'React Native Developer',
+    title: 'Full Stack Developer',
     icon: mobile,
-  }
+  },
 ]
 
 const technologies = [
@@ -106,96 +105,83 @@ const technologies = [
   {
     name: 'docker',
     icon: docker,
-  }
+  },
 ]
 
 const experiences = [
-  {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ],
-  },
   {
     title: 'Full stack Developer',
     company_name: 'Meta',
     icon: meta,
     iconBg: '#E6DEDD',
+    date: 'Jan 2021 - Feb 2022',
+    points: [
+      "Contributed to the development of the user interface for Facebook's advertising platform, improving usability and performance.",
+      'Designed and developed a new feature for the ad dashboard, resulting in a 20% increase in workflow efficiency.',
+      'Collaborated on the development of an internal library of reusable components, speeding up the delivery of new features by 30%.',
+      'Participated in code review sessions and provided constructive feedback to team members.',
+    ],
+  },
+  {
+    title: 'Full stack Developer',
+    company_name: 'Twitter',
+    icon: twitter,
+    iconBg: '#383E56',
+    date: 'Jan 2022 - Jan 2023',
+    points: [
+      'Worked on implementing a new "conversation thread" functionality on the Twitter platform, allowing users to easily follow conversations.',
+      'Optimized the performance of the Twitter mobile application by reducing timeline loading time by 40%.',
+      'Developed an internal data monitoring and analysis tool that helped the support team quickly identify and resolve issues.',
+      'Participated in the migration of the backend infrastructure to a microservices-based architecture.',
+    ],
+  },
+  {
+    title: 'Full stack Developer',
+    company_name: 'Airbnb',
+    icon: airbnb,
+    iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Contributed to the frontend development team at Airbnb, improving the booking experience for users and increasing the conversion rate by 15%.',
+      'Implemented an advanced search feature using filtering and sorting technologies to help users find more relevant accommodations.',
+      'Participated in creating a personalized recommendation system that improved the accuracy of accommodation suggestions by 20%.',
+      'Collaborated on implementing automated testing to ensure code quality and stability.',
     ],
-  }
+  },
 ]
 
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
+      'CodeWizard is an exceptionally talented developer. Their meticulous approach to code quality and attention to detail has led to remarkable results in our collaborative projects.',
+    name: 'Olivia',
+    designation: 'Project Manager',
+    company: 'Twitter',
     image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+      'Working with CodeWizard has been a wonderful experience. Their ability to find creative solutions to complex problems and their positive attitude always make teamwork a pleasure.',
+    name: 'Sarah',
+    designation: 'UX/UI Designer',
+    company: 'Meta',
+    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
+      'CodeWizard is a highly skilled and reliable developer. Their broad technical knowledge and effective communication skills have been invaluable in our collaborative work.',
+    name: 'David',
     designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
-  }
+    company: 'Airbnb',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+  },
 ]
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Fashion E-commerce',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'I developed a fashion e-commerce website that allows users to browse and purchase fashion products. It includes features like a shopping cart, product search, and secure payment options.',
     tags: [
       {
         name: 'react',
@@ -206,55 +192,55 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'node-js',
         color: 'pink-text-gradient',
-      }
+      },
     ],
-    image: carrent,
+    image: ecommerce,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Job IT',
+    name: 'Task Management Application',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'I created a task management application that allows users to organize and track their daily tasks. It includes functionalities such as task creation, reminders, and task categorization.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'firebase',
         color: 'pink-text-gradient',
-      }
+      },
     ],
-    image: jobit,
+    image: task,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Restaurant Reservation App',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      ' I developed a mobile application for reserving tables at restaurants. Users can search for restaurants, view table availability, and make reservations. It also includes restaurant rating and review features.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react native',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'GraphQL',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'firebase',
         color: 'pink-text-gradient',
-      }
+      },
     ],
-    image: tripguide,
+    image: restaurant,
     source_code_link: 'https://github.com/',
-  }
+  },
 ]
 
 export { services, technologies, experiences, testimonials, projects }

@@ -42,7 +42,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Positive, innovative, results-oriented Software Developer. Able to effectively combine workplace objectives with personal and professional goals. Adept at solving various technical problems with practical solutions using diverse types of computer software.
+        I am a software developer with experience in multiple areas of development. I love tackling challenges and creating innovative solutions through code. My goal is to build high-quality applications that provide an exceptional user experience.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
