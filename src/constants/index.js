@@ -27,85 +27,85 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About'
+    title: 'About',
   },
   {
     id: 'work',
-    title: 'Work'
+    title: 'Work',
   },
   {
     id: 'contact',
-    title: 'Contact'
+    title: 'Contact',
   }
 ]
 
 const services = [
   {
     title: 'Web Developer',
-    icon: web
+    icon: web,
   },
   {
     title: 'Backend Developer',
-    icon: backend
+    icon: backend,
   },
   {
     title: 'React Native Developer',
-    icon: mobile
+    icon: mobile,
   }
 ]
 
 const technologies = [
   {
     name: 'HTML 5',
-    icon: html
+    icon: html,
   },
   {
     name: 'CSS 3',
-    icon: css
+    icon: css,
   },
   {
     name: 'JavaScript',
-    icon: javascript
+    icon: javascript,
   },
   {
     name: 'TypeScript',
-    icon: typescript
+    icon: typescript,
   },
   {
     name: 'React JS',
-    icon: reactjs
+    icon: reactjs,
   },
   {
     name: 'Redux Toolkit',
-    icon: redux
+    icon: redux,
   },
   {
     name: 'Tailwind CSS',
-    icon: tailwind
+    icon: tailwind,
   },
   {
     name: 'Node JS',
-    icon: nodejs
+    icon: nodejs,
   },
   {
     name: 'MongoDB',
-    icon: mongodb
+    icon: mongodb,
   },
   {
     name: 'Three JS',
-    icon: threejs
+    icon: threejs,
   },
   {
     name: 'git',
-    icon: git
+    icon: git,
   },
   {
     name: 'figma',
-    icon: figma
+    icon: figma,
   },
   {
     name: 'docker',
-    icon: docker
+    icon: docker,
   }
 ]
 
@@ -121,7 +121,7 @@ const experiences = [
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
+    ],
   },
   {
     title: 'React Native Developer',
@@ -134,7 +134,7 @@ const experiences = [
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
+    ],
   },
   {
     title: 'Web Developer',
@@ -147,7 +147,7 @@ const experiences = [
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
+    ],
   },
   {
     title: 'Full stack Developer',
@@ -160,7 +160,7 @@ const experiences = [
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
+    ],
   }
 ]
 
@@ -171,7 +171,7 @@ const testimonials = [
     name: 'Sara Lee',
     designation: 'CFO',
     company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg'
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     testimonial:
@@ -179,7 +179,7 @@ const testimonials = [
     name: 'Chris Brown',
     designation: 'COO',
     company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg'
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
@@ -187,7 +187,7 @@ const testimonials = [
     name: 'Lisa Wang',
     designation: 'CTO',
     company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg'
+    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   }
 ]
 
@@ -199,19 +199,19 @@ const projects = [
     tags: [
       {
         name: 'react',
-        color: 'blue-text-gradient'
+        color: 'blue-text-gradient',
       },
       {
         name: 'mongodb',
-        color: 'green-text-gradient'
+        color: 'green-text-gradient',
       },
       {
         name: 'tailwind',
-        color: 'pink-text-gradient'
+        color: 'pink-text-gradient',
       }
     ],
     image: carrent,
-    source_code_link: 'https://github.com/'
+    source_code_link: 'https://github.com/',
   },
   {
     name: 'Job IT',
@@ -220,19 +220,19 @@ const projects = [
     tags: [
       {
         name: 'react',
-        color: 'blue-text-gradient'
+        color: 'blue-text-gradient',
       },
       {
         name: 'restapi',
-        color: 'green-text-gradient'
+        color: 'green-text-gradient',
       },
       {
         name: 'scss',
-        color: 'pink-text-gradient'
+        color: 'pink-text-gradient',
       }
     ],
     image: jobit,
-    source_code_link: 'https://github.com/'
+    source_code_link: 'https://github.com/',
   },
   {
     name: 'Trip Guide',
@@ -241,19 +241,19 @@ const projects = [
     tags: [
       {
         name: 'nextjs',
-        color: 'blue-text-gradient'
+        color: 'blue-text-gradient',
       },
       {
         name: 'supabase',
-        color: 'green-text-gradient'
+        color: 'green-text-gradient',
       },
       {
         name: 'css',
-        color: 'pink-text-gradient'
+        color: 'pink-text-gradient',
       }
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/'
+    source_code_link: 'https://github.com/',
   }
 ]
 

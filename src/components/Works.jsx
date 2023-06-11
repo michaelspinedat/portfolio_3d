@@ -15,7 +15,7 @@ const ProjectCard = ({ index, project }) => {
         options={{
           max: 45,
           scale: 1,
-          speed: 450
+          speed: 450,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
