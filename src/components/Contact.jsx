@@ -7,8 +7,6 @@ import { slideIn } from '../utils/motion'
 import emailjs from '@emailjs/browser'
 import { config } from '../config'
 
-console.log(config)
-
 const Contact = () => {
   const formRef = useRef()
   const [form, setForm] = useState({
